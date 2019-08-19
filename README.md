@@ -1,24 +1,33 @@
-# README
+# Ruby on Rails microposting sample app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting started
 
-Things you may want to cover:
+Clone the repo and then install the needed gems:
 
-* Ruby version
+```
+$ bundle install
 
-* System dependencies
+```
 
-* Configuration
+Then, migrate the database:
 
-* Database creation
+```
+$ rails db:migrate
 
-* Database initialization
+```
 
-* How to run the test suite
+Then, run the test suite to verify that everything is working properly:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ rails test
 
-* Deployment instructions
+```
 
-* ...
+If the test suite passes, run the app in the local server:
+
+```
+$ rails server
+
+```
+
+
